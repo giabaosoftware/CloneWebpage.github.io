@@ -114,11 +114,14 @@ nav ul{
 }
 
 /* Intro section */
-
+.intro{
+    background-color: #000;
+}
 .intro-box{
     width: 50%;
     background-color: black;
     color: white;
+    margin-left: 30px;
 }
 
 .intro-img{
