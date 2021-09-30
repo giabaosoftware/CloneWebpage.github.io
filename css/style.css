@@ -217,24 +217,67 @@ nav ul{
     font-weight: bold;
     color: rgba(221, 191, 21, 0.986);
 }
+
 .hired-content{
     text-align: left;
     font-style: italic;
     color: rgba(221, 191, 21, 0.986);
     font-size: 15px;
 }
+
 .hired-btn{
     margin-top: 30px;
-    padding: 10px 25px;
+    padding: 10px 30px;
     display: inline-block;
     border: 0.5px solid black;
+    font-size: 14px;
 }
 
+.hired-btn:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
 /* Restaurant section */
 
+.res{
+    margin: 50px 0;
+}
+.restaurant{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
 .restaurant img{
-    width: 10%;
-    height: auto;
+    width: auto;
+    height: 55px;
+    filter: grayscale();
+    margin: 20px;
+    opacity: 0.7;
+}
+
+.restaurant-item{
+    border-bottom: 1px dotted rgb(187, 187, 187);
+    border-left: 1px dotted rgb(187, 187, 187);
+}
+
+.restaurant img:hover{
+    filter: none;
+    cursor: pointer;
+    opacity: 1;
+}
+.restaurant-concept{
+    width: 130px;
+    color: rgb(131, 131, 131);
+}
+
+.local-brand{
+    font-size: 16px;
+}
+
+.text-concept{
+    font-size: 10px;
+    margin-top: 5px;
 }
 
 /* Form section */
