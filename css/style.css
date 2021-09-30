@@ -183,16 +183,12 @@ nav ul{
 .app{
     margin: 80px 40px;
 }
-.app-img{
-    background-image: url('../img/TGS-Online_bannber.jpg');
-    background-size:cover;
-    background-position: center;
-    width: 50%;
+.app-img img{
     height: 300px;
 }
 
 .app-store img{
-    height: 40px;
+    height: 30px;
 }
 
 .app-content{
