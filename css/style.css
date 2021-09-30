@@ -83,7 +83,7 @@ nav ul{
 }
 
 .intro-img{
-    background-image: url('https://kichi.com.vn/wp-content/uploads/sites/14/2019/01/4A.png');
+    background-image: url('../img/4A.png');
     width: 50%;
     height: 400px;
     background-size: cover;
@@ -98,7 +98,7 @@ nav ul{
 
 
 .app-img{
-    background-image: url('https://ggg.com.vn/wp-content/uploads/2019/11/TGS-Online_bannber.jpg');
+    background-image: url('../img/TGS-Online_bannber.jpg');
     background-size: cover;
     background-position: center;
     width: 50%;
