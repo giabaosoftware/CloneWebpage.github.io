@@ -65,12 +65,11 @@ nav ul{
     margin: 0 auto;
 }
 
-.row{max-width: 1280px;
-    margin: 0 auto;}
-
-.intro{
-    height: 400px;
+.row{
+    max-width: 1280px;
+    margin: 0 auto;
 }
+
 
 .intro-box{
     width: 50%;
@@ -79,9 +78,13 @@ nav ul{
 }
 
 .intro-img{
+    background-image: url('https://kichi.com.vn/wp-content/uploads/sites/14/2019/01/4A.png');
     width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
 }
 
 .intro-img img{
-    height: 100%;
+    width: 100%;
 }
