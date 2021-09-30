@@ -33,6 +33,10 @@ nav ul{
     flex-direction: row;
 }
 
+.flex-direction-column{
+    flex-direction: column;
+}
+
 .justify-content{
     justify-content: space-between;
 }
@@ -70,6 +74,7 @@ nav ul{
     margin: 0 auto;
 }
 
+/* Intro section */
 
 .intro-box{
     width: 50%;
@@ -87,4 +92,42 @@ nav ul{
 
 .intro-img img{
     width: 100%;
+}
+
+/* App section */
+
+
+.app-img{
+    background-image: url('https://ggg.com.vn/wp-content/uploads/2019/11/TGS-Online_bannber.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+}
+
+.app-store img{
+    width: 20%;
+}
+
+/* Hired section */
+
+.hired{
+    background-color: antiquewhite;
+}
+
+/* Restaurant section */
+
+.restaurant img{
+    width: 10%;
+    height: auto;
+}
+
+/* Form section */
+.form{
+    background-color: rgb(219, 219, 219);
+}
+/* Footer wide */
+footer{
+    background-color: black;
+    color: white;
 }
